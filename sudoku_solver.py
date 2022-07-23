@@ -61,6 +61,7 @@ if __name__ == "__main__":
     get_sudoku()
 
     if solve():
+        print("+++++++++++++++ THE SOLVED SUDOKU +++++++++++++++")
         draw()
     else:
         print("I Cannot solve it =///")
